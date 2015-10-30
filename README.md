@@ -8,7 +8,7 @@ npm install
 Add Crontab with getdata.sh
 
 crontab -e 
-* * * * * (Minutely)
+// * * * * * (Minutely)
 
 
 include path to Node_path and path in crontab 
