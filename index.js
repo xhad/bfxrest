@@ -1,11 +1,7 @@
 var request = require('request');
 var MongoClient = require('mongodb').MongoClient;
 
-//var ObjectId = require('mongodb').ObjectID;
-
 var dbUrl = 'mongodb://127.0.0.1:27017/bfx';
-
-// bitfinex rest api get latest trade for USD
 
 var apiUrl = "https://api.bitfinex.com/v1";
 
