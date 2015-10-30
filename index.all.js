@@ -62,7 +62,11 @@ function get() {
          }, function(error, result) {
             if (error) console.log(error); //info about what went wrong
             if (result) console.log(result, db.close()); //the _id of new object if successful
+
+
          });
+
+
       })
    });
    // get latest lendbook USD data and insert into mongo
@@ -83,7 +87,11 @@ function get() {
          }, function(error, result) {
             if (error) console.log(error); //info about what went wrong
             if (result) console.log(result, db.close()); //the _id of new object if successful
+
+
          });
+
+
       })
    });
    // get latest lendbook in BTC data and insert into mongo
